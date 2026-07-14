@@ -2,18 +2,8 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <main className="relative min-h-dvh overflow-hidden">
-      {/* Atmosphere */}
-      <div
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_rgba(0,40,104,0.14),_transparent_55%),radial-gradient(ellipse_at_bottom_right,_rgba(191,10,48,0.10),_transparent_50%),linear-gradient(165deg,_#f8f6f2_0%,_#ece8e1_48%,_#e4ddd3_100%)]"
-        aria-hidden
-      />
-      <div
-        className="pointer-events-none absolute inset-0 opacity-[0.35] [background-image:repeating-linear-gradient(0deg,transparent,transparent_2px,rgba(10,31,74,0.03)_2px,rgba(10,31,74,0.03)_3px)]"
-        aria-hidden
-      />
-
-      <div className="relative mx-auto flex min-h-dvh w-full max-w-5xl flex-col px-6 py-10 sm:px-10 lg:px-12">
+    <main className="min-h-dvh bg-white">
+      <div className="mx-auto flex min-h-dvh w-full max-w-5xl flex-col px-6 py-10 sm:px-10 lg:px-12">
         <header className="flex items-center justify-between gap-4">
           <p className="font-[family-name:var(--font-body)] text-xs font-semibold tracking-[0.22em] text-navy/70 uppercase">
             Texas C&amp;K, LLC
@@ -36,7 +26,7 @@ export default function HomePage() {
               priority
               fetchPriority="high"
               sizes="(max-width: 640px) 90vw, 42rem"
-              className="mx-auto h-auto w-full object-contain drop-shadow-[0_18px_40px_rgba(10,31,74,0.18)]"
+              className="mx-auto h-auto w-full object-contain"
             />
           </div>
 
@@ -58,7 +48,7 @@ export default function HomePage() {
             </a>
             <a
               href="https://www.911poolcare.com/contact"
-              className="inline-flex items-center justify-center rounded-md border border-navy/20 bg-white/50 px-7 py-3.5 text-sm font-semibold tracking-wide text-navy backdrop-blur-sm transition-colors hover:border-navy/40 hover:bg-white/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy"
+              className="inline-flex items-center justify-center rounded-md border border-navy/20 bg-white px-7 py-3.5 text-sm font-semibold tracking-wide text-navy transition-colors hover:border-navy/40 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy"
             >
               Request service
             </a>
