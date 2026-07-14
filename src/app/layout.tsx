@@ -44,6 +44,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.texasck.com",
   },
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: {
+      index: false,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({
