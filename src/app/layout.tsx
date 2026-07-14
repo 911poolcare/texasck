@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.texasck.com"),
   title: "Texas C&K, LLC",
   description:
-    "Texas C&K, LLC is the holding company for 911 Pool Care — pool leak detection, repair, renovations, and inspections across Central Texas.",
+    "Texas C&K, LLC is the holding company for 911 Pool Care — pool leak detection, repair, renovations, and inspections across Central Texas. Contact chris@texasck.com.",
   openGraph: {
     title: "Texas C&K, LLC",
     description:
-      "Holding company for 911 Pool Care. Serving Central Texas pool owners.",
+      "Holding company for 911 Pool Care. Contact chris@texasck.com.",
     url: "https://www.texasck.com",
     siteName: "Texas C&K, LLC",
     images: [

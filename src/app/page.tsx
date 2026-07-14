@@ -78,7 +78,14 @@ export default function HomePage() {
               />
               <div>
                 <p className="text-sm font-semibold text-navy">Texas C&amp;K, LLC</p>
-                <p className="text-xs text-muted">www.texasck.com</p>
+                <p className="text-xs text-muted">
+                  <a
+                    href="mailto:chris@texasck.com"
+                    className="transition-colors hover:text-flag-red"
+                  >
+                    chris@texasck.com
+                  </a>
+                </p>
               </div>
             </div>
             <p className="text-xs text-muted">
