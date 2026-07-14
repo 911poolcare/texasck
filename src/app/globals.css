@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0a1f4a;
+  --navy-deep: #061433;
+  --flag-blue: #002868;
+  --flag-red: #bf0a30;
+  --ink: #0c1222;
+  --paper: #f7f5f1;
+  --muted: #6b7286;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-flag-blue: var(--flag-blue);
+  --color-flag-red: var(--flag-red);
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-muted: var(--muted);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--flag-red) 28%, white);
+  color: var(--ink);
+}
